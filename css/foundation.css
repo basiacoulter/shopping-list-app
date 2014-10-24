@@ -39,7 +39,7 @@ body {
   font-size: 100%; }
 
 body {
-  color: #222222;
+  color: #666;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -1105,7 +1105,7 @@ button, .button {
   color: white;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: #931D08; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -1339,8 +1339,8 @@ select::-ms-expand {
   padding-top: 0;
   padding-bottom: 0;
   text-align: center;
-  line-height: 2.125rem;
-  border: none; }
+  border: none; 
+}
 
 .prefix.button {
   padding-left: 0;
@@ -1383,13 +1383,13 @@ select::-ms-expand {
 span.prefix, label.prefix {
   background: #f2f2f2;
   border-right: none;
-  color: #333333;
+  color: #666;
   border-color: #cccccc; }
 
 span.postfix, label.postfix {
-  background: #f2f2f2;
+  background: #ccc;
   border-left: none;
-  color: #333333;
+  color: #666;
   border-color: #cccccc; }
 
 /* We use this to get basic styling on all basic form elements */
