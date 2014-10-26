@@ -34,7 +34,7 @@ header.row {
 	border-top-right-radius: 8px;
 }
 .columns.content {
-	padding: 3em 3em 2em 3em;
+	padding: 3em;
 	background-color: #ededed;
 	border: 1px solid #fff;
 	border-top: none;
@@ -45,6 +45,37 @@ header.row {
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
 }
-.list {
+.add.small-12.columns {
+	padding: 0;
+}
+.list, .item {
+	overflow: auto;
 	clear: both;
 }
+.list p {
+	width: 80%;
+	float: left;
+	margin-top: 1.125em;
+	padding-left: 0.5em;
+}
+div.item {
+	border-bottom: 1px solid #dcdcdc;
+}
+i {
+	float: right;
+	padding-top: 1.5em;
+	padding-right: 0.5em;
+}
+
+
+@media all and (max-width: 440px) {
+	.columns.content {
+		padding: 3em 1.5em 2em;
+	}
+}
+
+
+
+
+
+
