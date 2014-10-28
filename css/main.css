@@ -61,12 +61,22 @@ header.row {
 div.item {
 	border-bottom: 1px solid #dcdcdc;
 }
+.checked {
+	text-decoration: line-through;
+}
 i {
 	float: right;
 	padding-top: 1.5em;
 	padding-right: 0.5em;
+	cursor: pointer;
 }
-
+footer {
+	margin-top: 1.2em;
+	text-align: center;
+}
+footer p {
+	font-size: 0.8em;
+}
 
 @media all and (max-width: 440px) {
 	.columns.content {
