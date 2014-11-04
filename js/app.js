@@ -9,11 +9,11 @@ $(document).ready(function() {
 		if (value.length > 0) {
 			$(".list").prepend(listItem);
 		} 
-	});
-	$(".fa-check-square-o").on("click", function() {
+		$(listItem).children(".fa-check-square-o").on("click", function() {
 			$(this).closest("div").find("p").toggleClass("checked");
 		});
-	$(".fa-minus-square-o").on("click", function() {
+		$(listItem).children(".fa-minus-square-o").on("click", function() {
 			$(this).closest("div").remove();
 		});
+	});
 })
